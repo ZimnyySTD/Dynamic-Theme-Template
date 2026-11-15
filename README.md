@@ -1,3 +1,43 @@
+# PS4DynamicSample (Fork with Frame Extraction Tool)
+
+This is a fork of [speedrod55/PS4DynamicThemeSample](https://github.com/speedrod55/PS4DynamicThemeSample).
+
+## What's new in this fork
+
+- **Python frame extraction tool**: easily extract frames from a video, so you no longer need a separate program like Free Video to JPG Converter for step 1 of the guide below.
+- **Updated theme template** by **FernyOven**.
+
+## Extra requirements for the frame extraction tool
+
+- [Python 3](https://www.python.org/downloads/)
+- [Pillow](https://pypi.org/project/pillow/)
+- [NumPy](https://pypi.org/project/numpy/)
+- [FFmpeg](https://ffmpeg.org/download.html) (must be installed and available in your PATH)
+
+Install the Python packages with:
+
+```
+pip install pillow numpy
+```
+
+## Using the frame extraction tool
+
+```
+python <script_name>.py <your_video>
+```
+
+Then continue with the original guide below (converting the frames to .dds, setting the frame speed, and so on).
+
+## Credits
+
+- Original sample and guide: [speedrod55](https://github.com/speedrod55/PS4DynamicThemeSample)
+- Dynamic Custom Theme sample discovered by yy oossk
+- Updated theme template: FernyOven
+
+---
+
+# Original README
+
 # PS4DynamicSample
 
 # Requirements/Tools needed:
